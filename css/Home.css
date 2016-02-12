@@ -1,0 +1,33 @@
+﻿body {
+}
+
+
+
+#leftCol {
+    display: inline-block;
+    width: 40%;
+    height: 330px;
+    background-color: #000000;
+    vertical-align: top;
+}
+
+#leftCol ul li {
+    padding-top: 37px;
+    font-weight: bold;
+}
+
+#rightCol {
+    display: inline-block;
+    background-image: url('Images/bg.png');
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* -- VIDEO -- */
+#player{
+	width:540px;
+	height:330px;
+}

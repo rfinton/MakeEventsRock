@@ -1,0 +1,90 @@
+﻿@charset "UTF-8";
+*{
+	margin: 0; 
+	padding: 0;
+	font-family: helvetica;
+    font-size: 12pt;
+	color: white;
+}
+
+body {
+   background-color: black;
+}
+
+a {
+   color: #70bc1f;
+}
+
+.center{
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+.frijole{
+	font-family: 'Acme', sans-serif;
+	color: #70bc1f;
+	font-size: 110%;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#page{
+	width: 100%;
+	min-height: 800px;
+    background-image: url('Images/mlarPosterBackground.jpg');
+}
+#mainContent{
+	width: 1024px;
+	margin: auto;
+    padding: 0px 0px 20px 0px;
+	background-image: url('Images/bg.png');
+}
+
+input, select, option {
+	color: black;
+}
+
+.tbmarg {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.headline {
+    margin: 0 auto 20px auto;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bolder;
+}
+
+.button {
+    width: 222px;
+    margin: auto;
+    position: relative;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button img {
+    position: absolute;
+    top: 0;
+}
+
+.buttonText {
+    font-family: 'Acme', sans-serif;
+    color: #000000;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+    <title>##purl##</title>
+    <meta name="viewport" content="width=1400px, user-scalable=yes" />
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link type='text/css' rel='stylesheet' href='https://fonts.googleapis.com/css?family=Acme' />
+    <link type="text/css" rel="stylesheet" href="MainStyle.css" />
+    <link type="text/css" rel="stylesheet" href="CTA.css" />
+</head>
+<body>
+    <div id="page">
+
+        <script>
+            if (screen.width <= 720) {
+                document.getElementById('page').style.backgroundImage = "url('Images/crowdBgSmall.jpg')";
+                document.getElementById('page').style.backgroundRepeat = "repeat-x";
+                $('*').css('font-size', '130%');
+            }
+        </script>
+
+        <div id="mainContent">
+
+            <div>
+                <img src="Images/mlarEventMarketingBanner.png">
+            </div>
+
+            <div class="center tbmarg">
+                <span class="headline">Here are some of our Event Marketing case studies.</span>
+            </div> 
+
+            <div id="caseStudies">
+                <img width="120" src="Images/Adobe_PDF_icon.png" alt="pdf" />
+                <img width="120" src="Images/Adobe_PDF_icon.png" alt="pdf" />
+                <img width="120" src="Images/Adobe_PDF_icon.png" alt="pdf" />
+                <img width="120" src="Images/Adobe_PDF_icon.png" alt="pdf" />
+            </div>
+
+            <div class="tbmarg center">
+                <span class="headline">##Firstname##, it's time to market like a ROCKSTAR!</span>
+                <br/>
+                <br/>
+                <strong><span style="font-size:14pt;">To learn more about one2one marketing, confirm and submit your info below.</span></strong>
+            </div>
+
+            <div>
+                <form method="post">
+                    <table>
+                        <tr>
+                            <td><label for="firstname">First name: </label></td>
+                            <td><input id="firstname" type="text" name="firstname" value="##firstname##" /></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="lastname">Last name: </label></td>
+                            <td><input id="lastname" type="text" name="lastname" value="##lastname##" /></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="email">Email: </label></td>
+                            <td><input id="email" type="text" name="email" value="##email##" /></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="phone">Phone: </label></td>
+                            <td><input id="phone" type="text" name="phone" value="##phone##" /></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="company">Company: </label></td>
+                            <td><input id="company" type="text" name="company" value="##company##"/></td>
+                        </tr>
+                    </table>
+
+                    <form method="post"></form>
+
+                    <br/>
+
+                    <div class="button" onclick="document.forms[0].submit();">
+                        <img width="100%" src="Images/greenbutton.png" alt="submit" />
+                        <div class="buttonText">SUBMIT</div>
+                    </div>
+
+                </form>
+            </div>
+
+            <br/>
+            <br/>
+
+            <div class="button" onclick="return false;">
+                <img width="100%" src="Images/greenbutton.png" alt="friend" />
+                <div class="buttonText" onclick="location.href='http://##purl##.makeeventsrock.com/Friend.html'">refer a friend</div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

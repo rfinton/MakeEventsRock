@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Event Marketing</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1400px, user-scalable=yes">
+	<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+		function gotoFriend(){
+			window.open('friend.html', '_blank');
+		}
+		
+		function setit( input ){
+			input.checked = true;
+		}
+		
+		$( "document" ).ready( function(){
+			$( "td img" ).click( function(){
+				$( "td img" ).css( "display", "inline" );
+				$( this ).css( "display", "none" );
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="page">
+	
+		<script>
+			if( screen.width <= 720 ){
+				document.getElementById('page').style.backgroundImage = "url('https://db.tt/bBl6RsKr')";
+				document.getElementById('page').style.backgroundRepeat = "repeat-x";
+				$('*').css('font-size', '130%');
+			}
+			else
+				document.getElementById('page').style.backgroundImage = "url('https://db.tt/tzOb18nh')";
+		</script>
+
+		<div id="mainContent">
+		
+			<div>
+				<img src="https://db.tt/bAyOZxX5">
+			</div>
+		
+			<div style="height:50px;"></div>
+			
+			<div class="_800p">
+				<b>Complete the brief survey below. Update your information and click submit to download a manufacturing marketing case study. This will provide us with insight to help you reach <span class="frijole">ROCKSTAR</span> status!</b>
+			</div>
+			
+			<div style="height:50px;"></div>
+		
+			<form style="margin:auto; width:90%;" id="survey" method="post" action="thankyou.html">
+				
+				<div style="margin-top:20px; margin-left:20px;">
+					<b>Within a year, how many events do you have? (Events, trade show, seminars, etc.)</b><br>
+					<input class="indent" type="text" name="events">
+						
+					<div style="height:50px;"></div>
+					
+					<b>What area would you like to improve most in 2014?</b><br>
+					
+					<div style="height:20px;"></div>
+					
+					<table class="indent">
+						<tr>
+							<td>
+								<div class="radioContainer">
+									<input id="radio1" type="radio" name="area" value="xmedia" />
+									<img class="radioBtn" src="https://db.tt/53OHRBqL" alt="" onclick="setit(document.getElementById('radio1'));" />
+									<img class="radioBtn" src="https://db.tt/YocWesaf" alt="" onclick="setit(document.getElementById('radio1'));" />
+								</div>
+							</td>
+							<td><label for="radio1"><b>Marketing event across multiple media</b></label></td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="radioContainer">
+									<input id="radio2" type="radio" name="area" value="tracking">
+									<img class="radioBtn" src="https://db.tt/53OHRBqL" alt="" onclick="setit(document.getElementById('radio2'));" />
+									<img class="radioBtn" src="https://db.tt/YocWesaf" alt="" onclick="setit(document.getElementById('radio2'));" />
+								</div>
+							</td>
+							<td><label for="radio2"><b>Tracking and measuring event results</b></label></td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="radioContainer">
+									<input id="radio3" type="radio" name="area" value="creative">
+									<img class="radioBtn" src="https://db.tt/53OHRBqL" alt="" onclick="setit(document.getElementById('radio3'));" />
+									<img class="radioBtn" src="https://db.tt/YocWesaf" alt="" onclick="setit(document.getElementById('radio3'));" />
+								</div>
+							</td>
+							<td><label for="radio3"><b>Event creative and execution</b></label></td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="radioContainer">
+									<input id="radio4" type="radio" name="area" value="scoring">
+									<img class="radioBtn" src="https://db.tt/53OHRBqL" alt="" onclick="setit(document.getElementById('radio4'));" />
+									<img class="radioBtn" src="https://db.tt/YocWesaf" alt="" onclick="setit(document.getElementById('radio4'));" />
+								</div>
+							</td>
+							<td><label for="radio4"><b>Lead scoring</b></label></td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="radioContainer">
+									<input id="radio5" type="radio" name="area" value="database">
+									<img class="radioBtn" src="https://db.tt/53OHRBqL" alt="" onclick="setit(document.getElementById('radio5'));" />
+									<img class="radioBtn" src="https://db.tt/YocWesaf" alt="" onclick="setit(document.getElementById('radio5'));" />
+							</td>
+							<td><label for="radio4"><b>Database management</b></label></td>
+						</tr>
+					</table>
+					
+					<div style="height:50px;"></div>
+					
+					<div class="indent">
+						<b>First Name:</b> <input class="profile" type="text" name="firstname" value="##firstname##">
+					</div>
+					
+					<div class="indent">
+						<b>Last Name:</b> <input class="profile" type="text" name="lastname" value="##lastname##">
+					</div>
+					
+					<div class="indent">
+						<b>Email:</b> <input class="profile" type="text" name="email" value="##email##">
+					</div>
+
+					<div style="height:50px;"></div>
+					
+				</div>
+				
+				<div class="center">
+					<input class="submit" type="submit" value="Submit">
+					<input class="submit" type="submit" onclick="gotoFriend();return false;" value="Refer A Friend">
+				</div>
+				
+				<div style="height:50px;"></div>
+				
+			</form>
+			
+		</div>
+		
+	</div>
+</body>
+
+</html>

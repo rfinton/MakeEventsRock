@@ -1,0 +1,22 @@
+﻿body {
+}
+
+input {
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+}
+
+table {
+    margin: auto;
+}
+
+label {
+    font-size: 140%;
+}
+
+
+#caseStudies {
+    text-align: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Make Events Rock</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1400px, user-scalable=yes" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Acme' />
+    <link type="text/css" rel="stylesheet" href="../css/MainStyle.css" />
+    <link type="text/css" rel="stylesheet" href="../css/Home.css" />
+</head>
+<body>
+    <div id="page">
+
+        <script>
+            if (screen.width <= 720) {
+                document.getElementById('page').style.backgroundImage = "url('../images/crowdBgSmall.jpg')";
+                document.getElementById('page').style.backgroundRepeat = "repeat-x";
+                $('*').css('font-size', '130%');
+            }
+        </script>
+
+        <div id="mainContent">
+
+            <div>
+                <img src="../relaunch/images/mlarEventMarketingBanner.png">
+            </div>
+
+            <div class="center tbmarg">
+                <span class="headline">##firstname##, we rock it backstage so you can be the star!</span>
+            </div>
+
+
+            <div class="center">
+                <div id="leftCol">
+                    <ul>
+                        <li>Interactive marketing across multiple media</li>
+                        <li>Campaign design, management and execution</li>
+                        <li>Database management and collection</li>
+                        <li>Tracking and measuring of results, lead scoring</li>
+                        <li>PURLS, QR codes, Email, Direct mail, etc.</li>
+                    </ul>
+                </div>
+
+                <div id="rightCol">
+                    <div id="player">
+                        <iframe width="540" height="330" src="//www.youtube.com/embed/teNxxSNGBmU?version=3&enablejsapi=1&rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div style="height:50px;"></div>
+
+            <br>
+
+            <div class="button" onclick="document.forms[0].submit();">
+                <img width="100%" src="../relaunch/images/greenbutton.png" alt="Continue" />
+                <div class="buttonText" onclick="location.assign('solutions.html')">CONTINUE</div>
+            </div>
+
+            <div style="height:50px;"></div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
