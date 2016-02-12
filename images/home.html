@@ -1,60 +1,71 @@
-<!DOCTYPE html>
-<html>
-
+﻿<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
-	<title>Event Marketing</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=1400px, user-scalable=yes">
-	<link type="text/css" rel="stylesheet" href="stylesheet.css">
-	<link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>##purl##</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1400px, user-scalable=yes" />
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link type='text/css' rel='stylesheet' href='https://fonts.googleapis.com/css?family=Acme' />
+    <link type="text/css" rel="stylesheet" href="MainStyle.css" />
+    <link type="text/css" rel="stylesheet" href="Home.css" />
 </head>
-
 <body>
-	<div id="page">
-	
-		<script>
-			if( screen.width <= 720 ){
-				document.getElementById('page').style.backgroundImage = "url('https://db.tt/bBl6RsKr')";
-				document.getElementById('page').style.backgroundRepeat = "repeat-x";
-				$('*').css('font-size', '130%');
-			}
-			else
-				document.getElementById('page').style.backgroundImage = "url('https://db.tt/tzOb18nh')";
-		</script>
+    <div id="page">
 
-		<div id="mainContent">
-		
-			<div>
-				<img src="https://db.tt/bAyOZxX5">
-			</div>
-		
-			<div style="height:50px;"></div>
-		
-			<h2 class="leftMargin">As a manufacturer, firstname wouldn't you like to generate more sales ready leads from your events?</h2>
-			<br>
-			
-			<div id="player" class="leftMargin">
-				<iframe width="720" height="405" src="//www.youtube.com/embed/2nP5s2Y3yJE?rel=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-			
-			<div style="height:50px;"></div>
-			
-			<h2 class="center">Click the continue button to learn more</h2>
-			
-			<br>
-			
-			<div class="center">
-				<form method="post" action="solutions.html">
-					<input class="submit" type="submit" value="Continue">
-				</form>
-			</div>
-			
-			<div style="height:50px;"></div>
-		
-		</div>
-	
-	</div>
+        <script>
+            if (screen.width <= 720) {
+                document.getElementById('page').style.backgroundImage = "url('Images/crowdBgSmall.jpg')";
+                document.getElementById('page').style.backgroundRepeat = "repeat-x";
+                $('*').css('font-size', '130%');
+            }
+        </script>
+
+        <div id="mainContent">
+
+            <div>
+                <img src="Images/mlarEventMarketingBanner.png">
+            </div>
+
+            <div class="center tbmarg">
+                <span class="headline">##firstname##, we rock it backstage so you can be the star!</span>
+            </div>
+
+
+            <div class="center">
+                <div id="leftCol">
+                    <ul>
+                        <li>Interactive marketing across multiple media</li>
+                        <li>Campaign design, management and execution</li>
+                        <li>Database management and collection</li>
+                        <li>Tracking and measuring of results, lead scoring</li>
+                        <li>PURLS, QR codes, Email, Direct mail, etc.</li>
+                    </ul>
+                </div>
+
+                <div id="rightCol">
+                    <div id="player">
+                        <iframe width="540" height="330" src="//www.youtube.com/embed/teNxxSNGBmU?version=3&enablejsapi=1&rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div style="height:50px;"></div>
+
+            <br>
+
+            <div class="button" onclick="document.forms[0].submit();">
+                <img width="100%" src="Images/greenbutton.png" alt="Continue" />
+                <div class="buttonText">CONTINUE</div>
+            </div>
+
+            <form method="post"></form>
+
+            <div style="height:50px;"></div>
+
+        </div>
+
+    </div>
+
 </body>
-
 </html>
