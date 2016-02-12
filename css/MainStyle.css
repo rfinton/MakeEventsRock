@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 *{
 	margin: 0; 
 	padding: 0;
@@ -32,13 +32,13 @@ a {
 #page{
 	width: 100%;
 	min-height: 800px;
-    background-image: url('Images/mlarPosterBackground.jpg');
+    background-image: url('../images/mlarPosterBackground.jpg');
 }
 #mainContent{
 	width: 1024px;
 	margin: auto;
     padding: 0px 0px 20px 0px;
-	background-image: url('Images/bg.png');
+	background-image: url('../images/bg.png');
 }
 
 input, select, option {

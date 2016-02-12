@@ -1,4 +1,4 @@
-﻿body {
+body {
 }
 
 
@@ -18,7 +18,7 @@
 
 #rightCol {
     display: inline-block;
-    background-image: url('Images/bg.png');
+    background-image: url('../images/bg.png');
 }
 
 ul {
